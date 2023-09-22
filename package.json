@@ -1,0 +1,22 @@
+{
+  "name": "hapi-web-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avecenob/hapi-web-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avecenob/hapi-web-server/issues"
+  },
+  "homepage": "https://github.com/avecenob/hapi-web-server#readme",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2"
+  }
+}
