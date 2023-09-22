@@ -41,6 +41,17 @@ const routes = [
             return `Hello, ${name}`;
         }
     },
+    
+    // This route is used to demonstrate request.payload usage
+    {
+        method: "POST",
+        path: "/login",
+        handler: (request, h) => {
+            const { username, password } = request.payload;
+
+            return `Hello, ${username}`;
+        }
+    },
     {
         method: "*",
         path: "/{any*}",
